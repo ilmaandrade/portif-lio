@@ -120,7 +120,7 @@ header#call-to-scroll {
 }
 
 header #background-map {
-	background-image: url(../img/caixa.svg);
+	background-image: url(caixa.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
    background-position: 40%  70px;
