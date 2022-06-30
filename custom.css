@@ -1,0 +1,204 @@
+custom.css
+/*********************** 
+	Filename: custom.css
+	Author: Ilma Andrade
+	Date: Novembro, 2021;
+
+	Index
+
+	0. Reset
+	1. General
+	2. Header
+	3. portfólio
+	4. Table of Contents
+	5. Stats
+	6. Footer
+
+************************/
+
+
+/*********************** 
+	0. Reset
+************************/
+
+
+/*********************** 
+	1. General
+************************/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color:#60495F;
+}
+
+::selection {
+    background: #ffee58;
+    color: #ff00af;
+}
+
+
+h1 {
+	font-size: 40px;
+    line-height: 120%;
+    /*margin-top: 150px;*/
+    font-weight: 400;
+}
+
+h2 {
+	font-size: 32px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+
+h3 {
+	font-size: px;
+    line-height: 32px;
+    font-weight: ;
+    text-align: left;
+    margin-bottom: 32px;
+    }
+h4 {
+	font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 16px;
+
+}
+
+h5 {
+	font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+p {
+	font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #60495F;
+}
+
+/*********************** 
+	2. Header
+************************/
+
+header {
+
+}
+
+header#hero {
+	color: #FFFFFF;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+100 */
+	background: #760c4c; 
+}
+
+header nav	{
+	color: #FFFFFF;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ac3ecf+0,ff00af+100 */
+	background: #760c4c;
+
+	-webkit-box-shadow: none;
+    box-shadow: none;
+
+}#
+
+#hero-title h1 {
+	margin-bottom: -4px;
+}
+
+#hero-subtitle h5 {
+	margin-bottom: 24px;
+}
+
+header#call-to-scroll {
+
+
+}
+
+header #background-map {
+	background-image: url(../img/caixa.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-position: 40%  70px;
+ 
+}
+
+a.brand-logo {
+	font-size: 24px;
+    font-weight: 500;
+}
+
+
+#value-proposition{
+	height: 550px;
+}
+
+#value-proposition a {
+	color:  #ffff;
+	background:  #760c4c;
+	font-weight: 600;
+}
+
+#call-to-scroll {
+	color:  #760c4c;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#call-to-scroll .cta {
+	margin-bottom:-12px;
+	margin-top:24px;
+}
+
+#call-to-scroll i {
+	font-size: 50px;
+
+}
+
+/*********************** 
+	3. projects
+************************/
+
+.card-action a {
+    background:  #760c4c;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+
+.card-action a:hover {
+    background: #212121;
+
+}
+
+.card-title  a {
+	color: #000000;
+	font-weight: 600;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+/*********************** 
+	6. Footer
+************************/
+
+.page-footer {
+	background: #0E0E0E;
+	margin-top: 32px;
+	overflow: hidden;
+}
+
+#copyright {
+	background: #760c4c;
+	overflow: hidden;
+}
